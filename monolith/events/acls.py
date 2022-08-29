@@ -12,7 +12,7 @@ def get_weather_data(city, state):
     }
     url = "http://api.openweathermap.org/geo/1.0/direct"
     response = requests.get(url, params=params)
-    content = json.loads(response.content)
+    content = response.json()
 
     try:
         latitude = content[0]["lat"]
@@ -47,5 +47,5 @@ def get_photo(city, state):
     }
     url = "https://api.pexels.com/v1/search"
     response = requests.get(url, params=params, headers=headers)
-    content = json.loads(response.content)
+    content = response.json()
     return {"picture_url": content["photos"][0]["src"]["original"]}

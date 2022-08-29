@@ -9,20 +9,20 @@
     "Tfulize"
   ],
   "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#e4b849",
-    "activityBar.activeBorder": "#158b69",
-    "activityBar.background": "#e4b849",
+    "activityBar.activeBackground": "#e9ca00",
+    "activityBar.activeBorder": "#009f8a",
+    "activityBar.background": "#e9ca00",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
-    "activityBarBadge.background": "#158b69",
+    "activityBarBadge.background": "#009f8a",
     "activityBarBadge.foreground": "#e7e7e7",
-    "statusBar.background": "#daa520",
+    "statusBar.background": "#b69e00",
     "statusBar.foreground": "#15202b",
-    "statusBarItem.hoverBackground": "#ad8319",
-    "titleBar.activeBackground": "#daa520",
+    "statusBarItem.hoverBackground": "#837200",
+    "titleBar.activeBackground": "#b69e00",
     "titleBar.activeForeground": "#15202b",
-    "titleBar.inactiveBackground": "#daa52099",
+    "titleBar.inactiveBackground": "#b69e0099",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#daa520"
+  "peacock.color": "#b69e00"
 }
